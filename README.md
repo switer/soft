@@ -1,7 +1,7 @@
 soft
 ====
 
-Soft is an ios application framework left you build Iphone application with javascript code. 
+Soft is an framework let you to build ios application with javascript code. 
 
 
 ### JavaScriptCore Docs
