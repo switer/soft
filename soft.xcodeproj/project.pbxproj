@@ -23,6 +23,7 @@
 		81984B8617B90E7D0083AF33 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81984B8517B90E7D0083AF33 /* libicucore.dylib */; };
 		81984B8817B90E850083AF33 /* libJavaScriptCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81984B8717B90E850083AF33 /* libJavaScriptCore.a */; };
 		81984B9617B90EC30083AF33 /* libJavaScriptCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81984B9517B90EC30083AF33 /* libJavaScriptCore.a */; };
+		81984B9917B912700083AF33 /* SFJavascriptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81984B9817B912700083AF33 /* SFJavascriptView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		81984B9317B90EC30083AF33 /* JSValueRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSValueRef.h; sourceTree = "<group>"; };
 		81984B9417B90EC30083AF33 /* WebKitAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebKitAvailability.h; sourceTree = "<group>"; };
 		81984B9517B90EC30083AF33 /* libJavaScriptCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libJavaScriptCore.a; sourceTree = "<group>"; };
+		81984B9717B912700083AF33 /* SFJavascriptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJavascriptView.h; sourceTree = "<group>"; };
+		81984B9817B912700083AF33 /* SFJavascriptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJavascriptView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				81984B7817B90DE40083AF33 /* SFViewController_iPhone.xib */,
 				81984B7B17B90DE50083AF33 /* SFViewController_iPad.xib */,
 				81984B6417B90DE40083AF33 /* Supporting Files */,
+				81984B9717B912700083AF33 /* SFJavascriptView.h */,
+				81984B9817B912700083AF33 /* SFJavascriptView.m */,
 			);
 			path = soft;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				81984B6A17B90DE40083AF33 /* main.m in Sources */,
 				81984B7717B90DE40083AF33 /* SFViewController.m in Sources */,
 				81984B6E17B90DE40083AF33 /* SFAppDelegate.m in Sources */,
+				81984B9917B912700083AF33 /* SFJavascriptView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
